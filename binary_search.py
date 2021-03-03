@@ -80,7 +80,7 @@ def count_repeats(xs, x):
     0
     '''
     def firstfunc(left, right):
-        mid = (left+right)//2
+        mid = (left + right) // 2
         if left == right:
             if xs[left] > x:
                 return None
@@ -97,7 +97,7 @@ def count_repeats(xs, x):
         return firstfunc(left, right)
 
     def secondfunc(left2, right2):
-        mid2 = (left2+right2)//2
+        mid2 = (left2 + right2) // 2
         if left2 == right2:
             if xs[left2] < x:
                 return left2
