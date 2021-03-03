@@ -126,7 +126,7 @@ def count_repeats(xs, x):
 
 def argmin(f, lo, hi, epsilon=1e-3):
     '''
-    Assumes that f is an input function that takes a float as
+    Asssumes that f is an input function that takes a float as
     input and returns a float with a unique global minimum,
     and that lo and hi are both floats satisfying lo < hi.
     Returns a number that is within epsilon of the value that
